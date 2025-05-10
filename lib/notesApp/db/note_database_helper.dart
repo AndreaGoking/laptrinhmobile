@@ -53,7 +53,7 @@ CREATE TABLE notes (
   }
 
   Future<int> updateNote(Note note) async {
-    final db = await instance.database;
+    final db = await instance.database; 
     return await db.update(
       'notes',
       note.toMap(),

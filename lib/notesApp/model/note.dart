@@ -16,7 +16,7 @@ class Note {
     required this.modifiedAt,
     required this.color,
   });
-
+  // Chuyển đối tượng thành Map
   Map<String, dynamic> toMap() {
     return {
       'id': id,
